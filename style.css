@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #342c2c;
+  border: grey 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time-cover {
+  height: 50px;
+  width: 50px;
+  border: #898888 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.marginforall {
+  margin-left: 5px;
+}
+.colon {
+  border: #898888 2px dotted;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+.colon-outer {
+  display: flex;
+  flex-direction: column;
+}
+.date-box {
+  height: 50px;
+  width: 50px;
+  border: #898888 2px solid;
+  position: relative;
+  top: 30px;
+}
