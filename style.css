@@ -1,12 +1,16 @@
 * {
   padding: 0px;
   margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body {
+  background-color: #898888;
+}
+.outer-body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
 }
 .circle {
   width: 300px;
@@ -26,6 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  border-radius: 50%;
 }
 .marginforall {
   margin-left: 5px;
@@ -36,6 +41,7 @@ body {
   height: 5px;
   border-radius: 50%;
   margin-top: 3px;
+  background-color: #898888;
 }
 .colon-outer {
   display: flex;
@@ -47,4 +53,22 @@ body {
   border: #898888 2px solid;
   position: relative;
   top: 30px;
+}
+.upper-body {
+  height: 15vh;
+  width: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5vh rgb(255, 196, 0) solid;
+  background-color: rgb(139, 176, 51);
+  color: black;
+  font-weight: 900;
+}
+.total-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
